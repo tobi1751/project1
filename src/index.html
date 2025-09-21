@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kenia&family=Saira+Stencil+One&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <nav class="navbar">
+      <img src="images/ending soon.png" alt="">
+    </nav>
+    <img src="images/ending soon.png" alt="banner" class="banner">
+    <div class="main">
+      <h1>About Jovian</h1>
+      <section class="mainSection">
+        <div>
+          <p>
+          At Jovian, we're on a mission to build the world's most highly reputed
+          technical university, and we're building completely online. we offer
+          several beginner friendly courses that are taken by 300,000+ registered
+          users.
+          </p>
+          <p>we also offer 2 industry-focused bootcamps:</p>
+          <ul>
+            <li><a href="#">Jovian Full Stack Developer Bootcamp</a></li>
+            <li><a href="#">Jovian Data Science Bootcamp</a></li>
+          </ul>
+        </div>
+        <div>
+          <img src="images/ending soon.png" alt="team" height="200px" class="teamImage">
+        </div>
+    </section>
+    <section class="jobSection">
+      <h2>Job Opportunities</h2>
+      <table class="jobsTable">
+        <tr class="jobsHeaderRow">
+          <th rowspan="2">Job Title</th>
+          <th colspan="2">Location</th>
+          <th rowspan="2">Salary</th>
+          <th rowspan="2">Posted On</th>
+        </tr>
+        <tr class="jobsHeaderRow">
+          <th>City</th>
+          <th>Country</th>
+        </tr>
+        <tr class="jobDataRow">
+          <td>Frontend Developer</td>
+          <td>Bengaluru</td>
+          <td>India</td>
+          <td>₹12,00,000</td>
+          <td>Mar 3, 2023</td>
+        </tr>
+        <tr class="jobDataRow">
+          <td>Full Stack Developer</td>
+          <td>New Delhi</td>
+          <td>India</td>
+          <td>₹15,00,000</td>
+          <td>Feb 1, 2023</td>
+        </tr>
+        <tr class="jobDataRow">
+          <td>Data Scientist</td>
+          <td>San Francisco</td>
+          <td>USA</td>
+          <td>$175,000</td>
+          <td>Dec 22, 2022</td>
+        </tr>
+        <tr class="jobDataRow">
+          <td>Machine Learning Enginner</td>
+          <td colspan="2">remote</td>
+          <td>$80,000</td>
+          <td>Sep 19, 2022</td>
+        </tr>
+      </table>
+    </section>
+    <section class="Application">
+      <h2>Submit your Application</h2>
+      <form>
+        <div>
+          <label for="name">Full Name:</label>
+          <input type="text" id="name" name="fullName" required>
+        </div>
+        <div>
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="Email" required>
+        </div>
+        <div>
+          <label for="phone">Phone:</label>
+          <input type="tel" id="phone" name="PhoneNumber" required>
+        </div>
+        <div>
+          <label for="date">Data of Birth:</label>
+          <input type="date" id="date" name="DateOfBirth" required>
+        </div>
+        <div>
+          <label for="position">Position Applied for:</label>
+          <select name="position" id="position" required>
+            <option value="">Select position</option>
+            <option value="frontend">Frontend Developer</option>
+            <option value="Full Stack Developer">Full Stack Developer</option>
+            <option value="data Scientist">Data Scientist</option>
+            <option value="Machine Learning Engineer">ML Engineer</option>
+          </select>
+        </div>
+        <div>
+          <label for="resume">Upload Resume</label>
+          <input type="file" name="resume" id="resume" accept=".pdf,.doc,.docx" required>
+        </div>
+        <div>
+          <label for="coverletter">Cover Letter</label>
+          <textarea name="coverletter" id="coverletter" rows="5" required placeholder="Explain what makes you suitable for the job.."></textarea>
+        </div>
+        <div>
+          <label for="terms">I agree to the terms and conditions</label>
+          <input type="checkbox" id="terms" name="terms">
+        </div>
+        <div>
+          <input type="submit" value="Submit">
+        </div>
+      </form>
+    </section>
+    <footer>
+      <ul>
+        <li><a href="#">Courses</a></li>
+        <li><a href="#">Programs</a></li>
+        <li><a href="#">Youtube</a></li>
+      </ul>
+      <p>&copy; 2025 Tobias</p>
+    </footer>
+  </body>
+</html>
